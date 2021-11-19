@@ -1,0 +1,4 @@
+node_modules
+.nuxt
+NOTE.md
+.DS_Store
