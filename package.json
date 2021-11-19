@@ -1,0 +1,26 @@
+{
+  "name": "nuxt3-interpolation",
+  "version": "1.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "nuxi dev",
+    "release": "standard-version --sign && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daliborgogic/nuxt3-interpolation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daliborgogic/nuxt3-interpolation/issues"
+  },
+  "homepage": "https://github.com/daliborgogic/nuxt3-interpolation#readme",
+  "devDependencies": {
+    "nuxt3": "^3.0.0-27288761.d3fb512"
+  },
+  "dependencies": {
+    "standard-version": "^9.3.2"
+  }
+}
