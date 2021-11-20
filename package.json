@@ -1,6 +1,6 @@
 {
-  "name": "nuxt3-interpolation",
-  "version": "1.0.14",
+  "name": "interpolation",
+  "version": "1.0.15",
   "description": "",
   "exports": {
     ".": {
@@ -22,13 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daliborgogic/nuxt3-interpolation.git"
+    "url": "git+https://github.com/daliborgogic/interpolation.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daliborgogic/nuxt3-interpolation/issues"
+    "url": "https://github.com/daliborgogic/interpolation/issues"
   },
-  "homepage": "https://github.com/daliborgogic/nuxt3-interpolation#readme",
+  "homepage": "https://github.com/daliborgogic/interpolation#readme",
   "dependencies": {
     "@nuxt/kit": "^0.8.1-edge"
   },
