@@ -1,10 +1,10 @@
-import { defineNuxtPlugin } from '#app'
+// @ts-nocheck Aummm...
+import { defineNuxtPlugin } from '@nuxt/kit'
 
 let links = []
 let _router = null
 
 const navigate = event => {
-  console.log('metaKey ', event.metaKey)
   const href = event.currentTarget.getAttribute('href')
   const target = event.currentTarget.getAttribute('target') ?? '_self'
   if (href && href[0] === '/') {
@@ -29,7 +29,6 @@ const addListeners = links => {
     // https://github.com/mathiasbynens/rel-noopener/
     if (target && target === '_blank') {
       const rel = links[i].getAttribute('rel') || ''
-      console.log(rel)
       const attributes = rel.includes('noopener') ? rel : (rel + ' noopener')
       links[i].setAttribute('rel', attributes)
     }
@@ -39,7 +38,6 @@ const addListeners = links => {
 
 
 export default defineNuxtPlugin(nuxtApp => {
-  console.log(nuxtApp)
   _router = nuxtApp.$router
   nuxtApp.vueApp.directive('interpolation', {
     updated() {

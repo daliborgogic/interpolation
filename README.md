@@ -10,7 +10,8 @@
 ```javascript
 {
   buildModules: [
-    ['nuxt3-interpolation']
+    // Fix: exports is not defined in ES module scope
+    '~/node_modules/nuxt3-interpolation/index.cjs'
   ]
 }
 ```

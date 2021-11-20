@@ -3,3 +3,7 @@ nuxt.config.ts
 .editorconfig
 .nuxt
 pages
+test
+NOTE.md
+node_modules
+.output
