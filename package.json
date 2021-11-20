@@ -1,32 +1,16 @@
 {
   "name": "nuxt3-interpolation",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "scripts": {
     "dev": "nuxi dev",
     "build": "tsup",
     "release": "standard-version --sign && git push --follow-tags && npm publish"
   },
-  "sideEffects": false,
-  "exports": {
-    ".": {
-      "require": "./index.cjs",
-      "import": "./dist/index.mjs"
-    }
-  },
-  "main": "./index.cjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    "index.cjs"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daliborgogic/nuxt3-interpolation.git"
   },
-  "keywords": [],
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/daliborgogic/nuxt3-interpolation/issues"
@@ -37,6 +21,7 @@
   },
   "devDependencies": {
     "nuxt3": "^3.0.0-27288761.d3fb512",
+    "nuxt3-interpolation": "^1.0.7",
     "standard-version": "^9.3.2",
     "tsup": "^5.7.3",
     "typescript": "^4.5.2"
