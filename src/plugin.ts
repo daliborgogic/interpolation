@@ -1,5 +1,5 @@
-// @ts-nocheck Aummm...
-import { defineNuxtPlugin } from '@nuxt/kit'
+// @ts-nocheck POC! : D
+import { defineNuxtPlugin } from '#app'
 
 let links = []
 let _router = null
