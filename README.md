@@ -2,10 +2,16 @@
 
 > [Nuxt.js](https://github.com/nuxt/framework) module as directive for binding every link to catch the click event, and if it's a relative link router will push. For improved security `rel="noopener"` will be added automatically if target is `_blank`
 
+> :warning: For Nuxt 2, see [here](https://github.dev/daliborgogic/nuxt-interpolation)
+
 ## Setup
 
-- Add ```nuxt3-interpolation``` as devDependencies
-- Add ```nuxt3-interpolation``` to buildModules section of ```nuxt.config.ts```
+### Install the module
+```
+npm install nuxt3-interpolation
+# or
+yarn add nuxt3-interpolation
+```
 
 ```javascript
 {
@@ -21,7 +27,7 @@
 ## Usage
 
 ```html
-<div v-interpolation v-html="html" />
+<div v-html="html" v-interpolation />
 ```
 
 ## License
