@@ -16,10 +16,7 @@ yarn add nuxt3-interpolation
 ```javascript
 {
   buildModules: [
-    // Error: exports is not defined in ES module scope
-    // 'nuxt3-interpolation' 
-    // Fix
-    '~/node_modules/nuxt3-interpolation/index.cjs'
+    'nuxt3-interpolation' 
   ]
 }
 ```
